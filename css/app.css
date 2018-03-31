@@ -13,7 +13,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url("https://images.pexels.com/photos/378273/pexels-photo-378273.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") center center no-repeat;
+  background: url("https://photos-1.dropbox.com/t/2/AADyjdPBYKk47LC4kiddAR48_hqDk0VZXviiM06ePv605g/12/3409697/jpeg/32x32/1/_/1/2/04d2fa1f4b4ed1578999f7222b2527fc.jpg/EKulygIYruwIIAcoBw/LS8umi62HvL_mAbPKIXvcgNSBMHCtY-L4KGPwfQJXQk?size=2048x1536&size_mode=3") center center no-repeat;
   background-size: cover;
 }
 
@@ -60,5 +60,24 @@
 .hero-full-screen .top-bar .menu a {
   color: #fefefe;
   font-weight: bold;
+}
+
+
+#fadein {
+/**/
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+/**/
+#fadeout {
+
+    -webkit-animation: fadeout 20s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 20s; /* Firefox < 16 */
+        -ms-animation: fadeout 20s; /* Internet Explorer */
+         -o-animation: fadeout 20s; /* Opera < 12.1 */
+            animation: fadeout 20s;
 }
 
